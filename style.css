@@ -1,0 +1,54 @@
+body  {
+    background-color: pink;
+display: flex;
+justify-content: center;
+min-height: 100vh;
+align-items: center; 
+background-image: none;
+font-family: 'Josefin Sans';
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 700px 500px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.677);
+}
+
+.biger {
+    padding: 180px;
+    background-image: url(bg-pattern-desktop.svg);
+}
+p {
+    color: rgba(255, 0, 212, 0.638);
+}
+input {
+    width: 100%;
+    border-radius: 20px;
+    padding: 15px 0 15px 15px;
+    
+}
+span {
+    font-weight: 300;
+color: rgba(234, 117, 44, 0.731);
+}
+h1 {
+    font-size: 100px;
+    font-weight: 400;
+    letter-spacing:5px;
+}
+.input  {
+    margin-top: 70px;
+    position: relative;
+    
+}
+.icon {
+    position: absolute;
+    top: 10px;
+    border-radius: 20px;
+    right: 0;
+    background-color: pink;
+    padding: 10px 30px;
+
+
+}
